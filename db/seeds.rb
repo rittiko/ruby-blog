@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Article.create([
+  { title: "First Article", body: "This is the first article." },
+  { title: "Second Article", body: "This is the second article." },
+  { title: "Third Article", body: "This is the third article." }
+])
